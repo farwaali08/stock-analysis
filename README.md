@@ -83,6 +83,6 @@ For j = 2 To RowCount
        Next j
 ```
 
-This demonstrates one of the key advantages of refactoring: improving efficiency. On a smaller data set, the difference in the run times is minute, however when working with larger blocks of data, a more efficient code can save several minutes from the overall time.
+This demonstrates one of the key advantages of refactoring: improving efficiency. On a smaller data set, the difference in the run times is minute, however when working with larger blocks of data, a more efficient code can save several minutes from the run time.
 
-The refactored code was also cleaner and more organized, improving its readability. This makes the code easier to maintain, debug, and understand ([Source](https://dzone.com/articles/clean-code-explanation-benefits-amp-examples)).
+The refactored code was also cleaner and more organized, with a clear logical flow, improving its readability. This makes the code easier to maintain, debug, and understand ([Source](https://dzone.com/articles/clean-code-explanation-benefits-amp-examples)). This will also allow the code to be refactored more easily in the future.
