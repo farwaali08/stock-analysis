@@ -10,7 +10,7 @@ In this project, existing code was refactored to improve its overall efficiency 
  * Improving logic
  * Making the code run faster
 
-Previously, the code (herein referred to as “original” or “original code”) was created to evaluate the performance of a number of stocks over two years (2017 and 2018). The script was run to determine the total daily volume and return on each stock for the specified year. The objective was to determine whether or not the stock would be a good investment.
+Previously, the code (herein referred to as “original” or “original code”) was created to evaluate the performance of a number of stocks over two years (2017 and 2018). The script was run to determine the total daily volume and return on each stock for the specified year, with an overall objective of determining whether or not the stock would be a good investment.
 
 Only twelve stocks were analyzed, which brought forth the question of whether or not the original code was scalable, and whether it would be as efficient with a larger data set.
 
@@ -83,3 +83,6 @@ For j = 2 To RowCount
        Next j
 ```
 
+This demonstrates one of the key advantages of refactoring: improving efficiency. On a smaller data set, the difference in the run times is minute, however when working with larger blocks of data, a more efficient code can save several minutes from the overall time.
+
+The refactored code was also cleaner and more organized, improving its readability. This makes the code easier to maintain, debug, and understand ([Source](https://dzone.com/articles/clean-code-explanation-benefits-amp-examples)).
