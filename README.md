@@ -27,7 +27,7 @@ The original run times were as follows:
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/1dfe1d1e57e036832a0061fd0cb9df04d4d7bd6f/VBA_Challenge_2017.png)
 > 2017 Run
 
-![alt text](https://github.com/farwaali08/stock-analysis/blob/f73a3515271edbd98002f24d2166b6ac473a340b/2018_original.png)
+![alt text](https://github.com/farwaali08/stock-analysis/blob/cf5af9aabf46eaa8ab0d8d66697dde8f8af939df/VBA_Challenge_2018.png)
 > 2018 Run
 
 
