@@ -34,7 +34,7 @@ The original run times were as follows:
 The refactored code fared well in comparison, with a more rapid run time. The run time decreased from tenths of a second to hundredths of a second—almost tenfold (note: the initial run times were not recorded, and were slightly slower):
 
 
-![alt text](https://github.com/farwaali08/stock-analysis/blob/f73a3515271edbd98002f24d2166b6ac473a340b/VBA_Challenge_2017.png)
+![alt text](https://github.com/farwaali08/stock-analysis/blob/ce74a25775776ab55f5607f06ae93c8efcc97ec2/VBA_Challenge_2017.png)
 > 2017 Run
 
 
