@@ -22,12 +22,21 @@ To test this, the code was refactored, executed, and its performance was evaluat
 
 ## *ORIGINAL RUN vs. REFACTORED RUN*
 
+A copy of the the original code can be found within [this](https://github.com/farwaali08/stock-analysis/blob/9e81832873fdbd20887042147662163c80a0ce3d/VBA_CHALLENGE1.xlsm) workbook. The original macro was preserved to allow comparison. 
+
+
+![alt text](https://github.com/farwaali08/stock-analysis/blob/2c4ad067613482c7dcfa3ba78df20c05d798d72f/Stock_Analysis.png)
+
+
 The original run times were as follows:
 
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/6d35b88fe9c31036bfc4a7c05df6124c4ff8b27e/2017_original.png)
+
 > 2017 Run
 
+
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/998e0451279473d25c6aae2416c0fcc34890dfc3/2018_original.png)
+
 > 2018 Run
 
 
@@ -41,9 +50,9 @@ The refactored code fared well in comparison, with a more rapid run time. The ru
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/cf5af9aabf46eaa8ab0d8d66697dde8f8af939df/VBA_Challenge_2018.png)
 > 2018 Run
 
+
 # **ANALYSIS and SUMMARY**
 
-A copy of the the original code can be found within [this]https://github.com/farwaali08/stock-analysis/blob/9e81832873fdbd20887042147662163c80a0ce3d/VBA_CHALLENGE1.xlsm workbook. The original macro was preserved to allow comparison. 
 
 
 
