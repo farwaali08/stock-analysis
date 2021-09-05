@@ -43,7 +43,9 @@ The refactored code fared well in comparison, with a more rapid run time. The ru
 
 # **ANALYSIS and SUMMARY**
 
-A copy of the the original code can be found within [this] workbook.
+A copy of the the original code can be found within [this]https://github.com/farwaali08/stock-analysis/blob/9e81832873fdbd20887042147662163c80a0ce3d/VBA_CHALLENGE1.xlsm workbook. The original macro was preserved to allow comparison. 
+
+
 
 ```
 For j = 2 To RowCount
