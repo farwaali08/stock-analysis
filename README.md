@@ -38,7 +38,7 @@ The refactored code fared well in comparison, with a more rapid run time. The ru
 > 2017 Run
 
 
-![alt text](https://github.com/farwaali08/stock-analysis/blob/f73a3515271edbd98002f24d2166b6ac473a340b/VBA_Challenge_2018.png)
+![alt text](https://github.com/farwaali08/stock-analysis/blob/cf5af9aabf46eaa8ab0d8d66697dde8f8af939df/VBA_Challenge_2018.png)
 > 2018 Run
 
 # **ANALYSIS and SUMMARY**
