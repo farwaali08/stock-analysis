@@ -10,9 +10,9 @@ In this project, existing code was refactored to improve its overall efficiency 
  * Improving logic
  * Making the code run faster
 
-Previously, the code (herein referred to as “original” or “original code”) was created to evaluate the performance of a number of stocks over two years (2017 and 2018). The script was run to determine the total daily volume and return on each stock, for the specified year. The ultimate goal was to determine whether or not the stock would be a good investment.
+Previously, the code (herein referred to as “original” or “original code”) was created to evaluate the performance of a number of stocks over two years (2017 and 2018). The script was run to determine the total daily volume and return on each stock for the specified year. The objective was to determine whether or not the stock would be a good investment.
 
-Only twelve stocks were analyzed, and so the output was returned in a timely manner. This however, brought forth the question of whether or not the original code was scalable, and whether it would be as efficient with a larger data set.
+Only twelve stocks were analyzed, which brought forth the question of whether or not the original code was scalable, and whether it would be as efficient with a larger data set.
 
 To test this, the code was refactored, executed, and its performance was evaluated based on its run time.
 
@@ -31,7 +31,7 @@ The original run times were as follows:
 > 2018 Run
 
 
-The refactored code fared well in comparison, with a more rapid run time. The run time decreased from tenths of a second to hundredths of a second—almost tenfold (note: the initial run times were not recorded, and were slightly slower):
+The refactored code fared well in comparison, with a more rapid run time. The run time decreased from tenths of a second to hundredths of a second—almost tenfold (note: the initial run times were not recorded, and were slightly slower, however the dimensions remained the same):
 
 
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/ce74a25775776ab55f5607f06ae93c8efcc97ec2/VBA_Challenge_2017.png)
@@ -42,6 +42,8 @@ The refactored code fared well in comparison, with a more rapid run time. The ru
 > 2018 Run
 
 # **ANALYSIS and SUMMARY**
+
+A copy of the the original code can be found within [this] workbook.
 
 ```
 For j = 2 To RowCount
