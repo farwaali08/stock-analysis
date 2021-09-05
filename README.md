@@ -55,7 +55,9 @@ The refactored code fared well in comparison, with a more rapid run time. The ru
 # **ANALYSIS and SUMMARY**
 
 
-Both scripts produced identical output, which was the expectation, as the goal of refactoring was to improves the overall efficiency. The  
+Both scripts produced identical output, which was the expectation, as the goal of refactoring was to improve the overall efficiency. 
+
+The original code contained 2 for loops, one of which (below) was removed during the refactoring process. The refactored code was able to execute the same function within a single for loop, which is what allowed it to run faster:
 
 ```
 For j = 2 To RowCount
@@ -80,3 +82,4 @@ For j = 2 To RowCount
            End If
        Next j
 ```
+
