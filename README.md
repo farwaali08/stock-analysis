@@ -22,7 +22,7 @@ To test this, the code was refactored, executed, and its performance was evaluat
 
 ## *ORIGINAL RUN vs. REFACTORED RUN*
 
-A copy of the the original code can be found within [this](https://github.com/farwaali08/stock-analysis/blob/9e81832873fdbd20887042147662163c80a0ce3d/VBA_CHALLENGE1.xlsm) workbook. The original macro was preserved to allow comparison. 
+A copy of the the original code can be found within [this](https://github.com/farwaali08/stock-analysis/blob/9e81832873fdbd20887042147662163c80a0ce3d/VBA_CHALLENGE1.xlsm) workbook. The original macro was preserved to allow comparison between the run times. Both scripts produced identical output. 
 
 
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/2c4ad067613482c7dcfa3ba78df20c05d798d72f/Stock_Analysis.png)
@@ -51,10 +51,11 @@ The refactored code fared well in comparison, with a more rapid run time. The ru
 > 2018 Run
 
 
+
 # **ANALYSIS and SUMMARY**
 
 
-
+Both scripts produced identical output, which was the expectation, as the goal of refactoring was to improves the overall efficiency. The  
 
 ```
 For j = 2 To RowCount
