@@ -24,7 +24,7 @@ To test this, the code was refactored, executed, and its performance was evaluat
 
 The original run times were as follows:
 
-![alt text](https://github.com/farwaali08/stock-analysis/blob/f73a3515271edbd98002f24d2166b6ac473a340b/2017_original.png)
+![alt text](https://github.com/farwaali08/stock-analysis/blob/1dfe1d1e57e036832a0061fd0cb9df04d4d7bd6f/VBA_Challenge_2017.png)
 > 2017 Run
 
 ![alt text](https://github.com/farwaali08/stock-analysis/blob/f73a3515271edbd98002f24d2166b6ac473a340b/2018_original.png)
