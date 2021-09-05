@@ -12,7 +12,7 @@ In this project, existing code for a VBA macro was refactored to improve its ove
 
 Previously, the code (herein referred to as “original” or “original code”) was created to evaluate the performance of a number of stocks over two years (2017 and 2018). The script was run to determine the total daily volume and return on each stock for the specified year, with an overall objective of determining whether or not the stock would be a good investment.
 
-Only twelve stocks were analyzed, which brought forth the question of whether or not the original code was scalable, and whether it would be as efficient with a larger data set.
+Only twelve stocks were analyzed, which brought forth questions of whether the original code was scalable, whether it would be as efficient with a larger data set, and if any improvements could be made.
 
 To test this, the code was refactored, executed, and its performance was evaluated based on its run time.
 
@@ -85,6 +85,6 @@ For j = 2 To RowCount
 
 This demonstrates one of the key advantages of refactoring: improving efficiency. On a smaller data set, the difference in the run times is minute, however when working with larger blocks of data, a more efficient code can save several minutes from the run time.
 
-The refactored code was also cleaner and more organized, with a clear logical flow, improving its readability. This makes the code easier to maintain, debug, and understand ([Source](https://dzone.com/articles/clean-code-explanation-benefits-amp-examples)). This also allows it to be refactored more easily in the future, and improves its scalability. The refactored code also reduced in size, using less memory. All are important considerations when writing code.
+The refactored code was also cleaner and more organized, with a clear logical flow, improving its readability. This makes the code easier to maintain, debug, and understand ([Source](https://dzone.com/articles/clean-code-explanation-benefits-amp-examples)). This also allows it to be refactored more easily in the future, and improves its scalability. The refactored code was also reduced in size, using less memory. All are important considerations, which helped enhance the code quality.
 
-This did come at a certain cost, which in this instance, was time. Refactoring can be time-consuming, and is not always feasible for all projects. Although it is faster than re-writing the code altogether, depending on the nature of the enhancement, it may not always be worth the time invested. In this instance, the run time was improved by a factor of 10
+This did come at a certain cost, which in this instance, was time. Refactoring can be time-consuming, and is not always feasible for all projects. Although it is faster than re-writing the code altogether, depending on the nature of the enhancement, it may not always be worth the time invested. In this instance, the run time was improved by a factor of 10, however it wouldn't make an appreciable difference for the end-users (unless tested on a larger data set). Some sources suggest that refactoring should be done when larger
